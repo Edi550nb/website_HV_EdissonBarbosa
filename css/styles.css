@@ -1,0 +1,521 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Verdana;
+    font-size: xx-large;
+    color: rgb(0, 32, 96);
+    line-height: 5px;
+    }
+
+h3{
+        color: rgb(42, 209, 255);
+        font-family: Verdana;
+        font-size: larger;
+        text-align: center;
+        font-weight: bold;
+    }
+
+h4{
+        color: rgb(42, 209, 255);
+    }
+
+a{
+        text-decoration: none;
+        font-family: Verdana;
+        font-size: small;
+    }
+
+p{
+        color: rgb(255, 255, 255);
+        font-family: Verdana;
+        font-size: small;
+    }
+
+body{
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(247, 250, 253);
+        }    
+
+.contenedor_principal{
+    padding: 10px;
+}
+
+.cont_ini{
+    margin: 0 auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: white;
+    font-family: Verdana;
+    font-size: small;
+    text-align: justify;
+    }
+
+    .img_intro{
+        display:block;
+        margin:auto;
+    }
+
+    .boton1{
+        display:block;
+        margin:auto;
+        background: transparent;
+        border-radius: 30px;
+        color: white;
+        border: 1px solid white;
+        width: 200px;
+        height: 30px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+.boton1:hover {
+        background-color: #1281bc;
+        color: white;
+        }
+
+.flex-container{
+    display: flex;
+    padding: auto;
+}
+.caja{
+    flex: 25%;
+    padding: 5px;
+}
+
+.caja img{
+    margin-top: 10px;
+}
+
+.caja iframe{
+    margin-top: 10px;
+    height: 98%;
+}
+
+.btn{
+    color: rgb(0, 32, 96);
+    padding: 5px;
+}
+
+.contenedor_superior{
+    padding: 20px;
+    
+}
+
+.logo{
+    padding-left: 2px;
+}
+
+.contenedor-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.seccion_junta{
+    width: 400px;
+    height: 300px;
+    margin: 30px;
+}
+
+.seccion_junta p{
+    margin: 30px;
+    text-align: justify;
+    font-family: Verdana;
+}
+
+#conocimientos{
+    margin-right: 300px;
+    margin-top: 100px;
+    display: flex;
+}
+
+#conocimientos h3{
+    position: relative;
+    bottom: 20%;
+    left: 23%;
+}
+
+#conocimientos img{
+    width: 35%;
+    height: 35%;
+    margin-top: 50px;
+}
+
+#perfil{
+    margin-left: 80px;
+}
+
+#perfil p{
+    color: rgb(0, 27, 46);
+    font-size: medium;
+    font-family: Verdana;
+}
+
+.formulario{
+
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-image: url(../images/fondo.jpg);
+}
+
+.seccion_formulario{
+    width: 800px;
+    height: 300px;
+    margin: 30px;
+}
+
+#form1{
+    text-align: center;
+    font-family: Verdana;
+    color:#ffffff;
+}
+
+#form1 p{
+    font-family: Verdana;
+    color: white;
+    text-align: justify;
+    font-size: medium;
+}
+
+.parrafo{
+    text-align: justify;
+    color: rgb(0, 32, 96);
+}
+
+#seccion_1{
+    position: relative;
+    left: 10%;
+}
+
+#seccion_2{
+    position: relative;
+    right: 15%;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+#Boton2{
+    display:block;
+    margin-top: 80px;
+    margin-left: 120px;
+    background-color: rgb(0, 176, 240);
+    border-radius: 30px;
+    color: rgb(0, 27, 46);
+    border: 1px solid rgb(0, 27, 46);
+    width: 150px;
+    height: 30px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#Boton2:hover {
+    background-color: rgb(0, 27, 46);
+    color: white;
+    }
+
+    .contenedor_enlaces{
+        background-color: rgb(247, 250, 253);
+    }
+
+.contenedor_inferior{
+    color: rgb(0, 27, 46);
+    position: relative;
+    top: 50%;
+    left: 32%;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.contenedor-caja{
+    background: url(../images/fondo.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seccion_nombre{
+    text-align: center;
+    font-family: Verdana;
+    color: white;   
+}
+
+.conti{
+    background-image: url(../images/fondo.jpg);
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 480px){
+    .contenedor_principal{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 480px){
+    .contenedor-main{
+        flex-direction: column;
+        width: 40%;
+    }
+}
+
+@media (min-width: 480px){
+    .cont_ini{
+        margin: 0 auto;
+        padding: 100px;
+    }
+}
+
+@media (min-width: 480px){
+    .seccion_junta{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 480px){
+    #seccion_2{
+        padding-top: 150px;
+        padding-left: 100px;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 480px){
+    .contenedor_inferior{
+        width: 40%;
+    }
+}
+
+@media (min-width: 720px){
+    .contenedor_principal{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 720px){
+    .contenedor-main{
+        flex-direction: column;
+        width: 40%;
+    }
+}
+
+@media (min-width: 720px){
+    .seccion_junta{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 720px){
+    #seccion_1{
+        padding-top: 20px;
+        padding-left: 20px;
+        margin: 100px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 720px){
+    #seccion_2{
+        padding-top: 150px;
+        padding-left: 220px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 720px){
+    .contenedor_inferior{
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 1024px){
+    .contenedor_principal{
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px){
+    .contenedor-main{
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px){
+    .seccion_junta{
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px){
+    #seccion_1{
+        margin-left: 80px;
+        margin-top: 100px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px){
+    #seccion_2{
+        margin-right: 400px;
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1024px){
+    .contenedor_inferior{
+        align-items: left;
+        padding-top: 20px;
+        width: 80%;
+    }
+}
+
+@media (min-width: 480px){
+    .contenedor-caja{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 480px){
+    .caja{
+        padding: 100px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 480px){
+    #form2{
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+    .contenedor-caja{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px){
+    .caja{
+        flex: 25%;
+        padding: 5px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px){
+    #form2{
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+    .contenedor-caja{
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px){
+    .caja{
+        align-items: center;
+        height: auto;
+    }
+}
+
+@media (min-width: 1024px){
+    #form1{
+        display: contents;
+        width: 80%;
+        padding: auto;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    #form2{
+        display: contents;
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 480px){
+    .flex-container{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media (min-width: 480px){
+    .caja iframe{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px){
+    .flex-container{
+        flex-direction: row;
+        display: flex;
+        padding: auto;
+    }
+}
+
+@media (min-width: 1024px){
+    .caja img{
+        align-items: center;
+        height: auto;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1024px){
+    .caja iframe{
+        margin-top: 10px;
+        height: 500%;
+    }
+}
+
+@media (min-width: 480px){
+    #perfil{
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px){
+    .contenedor-main{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+}
